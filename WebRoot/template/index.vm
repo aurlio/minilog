@@ -1,0 +1,15 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Index</title>
+</head>
+<body>
+	
+	#if($user)
+		欢迎您，用户$user
+	#else
+		您当前未登录，<a href="login.htm">点此登录</a>。
+	#end
+
+</body>
+</html>
